@@ -15,14 +15,16 @@ export default {
             base: {
                 position: 'relative'
             },
-            link: {
+            container: {
+              link: {
                 cursor: 'pointer',
                 position: 'relative',
                 padding: '0px 5px',
                 display: 'block'
-            },
-            activeLink: {
-                background: '#31363F'
+              },
+              activeLink: {
+                  background: '#31363F'
+              },
             },
             toggle: {
                 base: {
